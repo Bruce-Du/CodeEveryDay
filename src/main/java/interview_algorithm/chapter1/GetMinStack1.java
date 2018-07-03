@@ -2,6 +2,9 @@ package interview_algorithm.chapter1;
 
 import java.util.Stack;
 
+/**
+ * 设计一个有getMin功能的栈 1
+ */
 public class GetMinStack1 {
 	private Stack<Integer> stackData;
 	private Stack<Integer> stackMin;
